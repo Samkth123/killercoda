@@ -1,0 +1,6 @@
+global:
+  scrape_interval: 5s
+scrape_configs:
+  - job_name: 'ml_model'
+    static_configs:
+      - targets: ['<your_killercoda_ip>:8000']  # Replace with your Killercoda IP

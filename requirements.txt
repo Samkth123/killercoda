@@ -1,0 +1,3 @@
+flask
+prometheus_client
+scikit-learn  # Or any other ML library you're using
